@@ -1,0 +1,82 @@
+html {
+	background-image:url(../img/导航背景.jpg);
+}
+ul {
+	width:300px;
+	height:900px;
+	text-align:center
+}
+a {
+	text-decoration:none;
+	transition:all 0.5s;
+}
+header {
+	width:450px;
+	height:100px;
+	margin:auto;
+}
+.header a {
+	font-size:75px;
+	color:#228DFF;
+	font-family:"microsoft yahei";
+}
+.header a:hover {
+	animation:neon 1.5s ease-in-out infinite alternate;
+	color:#ffffff;
+}
+@keyframes neon {
+	from {
+	text-shadow:0 0 10px #fff,0 0 20px  #fff,0 0 30px  #fff,0 0 40px  #228DFF,0 0 70px  #228DFF,0 0 80px  #228DFF,0 0 100px #228DFF,0 0 150px #228DFF;
+}
+to {
+	text-shadow:0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+}
+}.about {
+	width:100%;
+	padding-left:5px;
+	padding-left:550px;
+	padding-top:50px;
+}
+.asidenav {
+	margin-left:50px;
+	margin-top:50px;
+	width:300px;
+	height:900px;
+}
+.touxiang {
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	border-radius:50%;
+	overflow:hidden;
+}
+.bmenu {
+	padding:0px;
+	margin:0 0 10px 0;
+	position:relative;
+}
+.bmenu li {
+	font-size:40px;
+	display:block;
+	line-height:50px;
+	text-align:center;
+}
+.bmenu li a {
+	font-family:"arial,helvetica,sans-serif";
+	font-weight:100;
+	color:transparent;
+	display:block;
+	text-transform:uppercase;
+	text-shadow:0px 0px 5px #fff;
+	letter-spacing:1px;
+	transition:all 0.3s ease-in-out;
+	text-decoration:none;
+}
+.bmenu:hover li a {
+	text-shadow:0px 0px 5px #0d1a3a;
+}
+.bmenu li a:hover {
+	color:skyblue;
+	text-shadow:0px 0px 1px skyblue;
+	padding-left:10px;
+}
